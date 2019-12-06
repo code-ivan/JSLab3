@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Lab 3</title>
+</head>
+<body>
+    <main>
+        <article id="task1">
+            <p><b>Завдання №1.</b> Виведення поточної дати та часу</p>
+            <input id="task1Bt" type="button" value="Виконати" onclick="displayDate()">
+            <p id="output1"></p>
+        </article>
+        <article id="task2">
+            <p><b>Завдання №2.</b> Виведення дня тижня</p>
+            <input id="task2Bt" type="button" value="Виконати" onclick="getDay()">
+            <p id="output2"></p>
+        </article>
+        <article id="task2">
+            <p><b>Завдання №3.</b> Знайти дату, яка була n днів тому</p>
+            <label for="daysAgo"></label><input id="daysAgo" type="text">
+            <input id="task3Bt" type="button" value="Виконати">
+            <p id="output3"></p>
+        </article>
+        <article id="task4">
+            <p><b>Завдання №4. Oстанній день місяця. </b> Знайти дату, яка була n днів тому</p>
+            <label for="year">Рік</label><input id="year" type="text">
+            <label for="month">Місяць</label><input id="month" type="text">
+            <input id="task4Bt" type="button" value="Виконати">
+            <p id="output4"></p>
+        </article>
+        <article id="task5">
+            <p><b>Завдання №5.</b> Знайти кількість секунд, яка пройшла від початку сьогоднішнього дня, кількість секунд до початку наступного дня.</p>
+            <input id="task5Bt" type="button" value="Виконати">
+            <p id="output5"></p>
+            <p id="output5.1"></p>
+        </article>
+        <article id="task6">
+            <p><b>Завдання №6.</b> Реалізуйте виведення заданої дати у вигляді рядка форматі ДД.ММ.РРРР</p>
+            <input id = "pickdate" type="date">
+            <input id="task6Bt" type="button" value="Виконати">
+            <p id="output6"></p>
+        </article>
+        <article class="task7">
+            <p><b>Завдання №7.</b> Напишіть функцію пошуку різниці між двома датами. </p><br>
+            <label for="pickdate2">Перша дата<br></label><input id = "pickdate2" type="date"><br><br>
+            <label for="pickdate3">Друга дата<br></label><input id = "pickdate3" type="date"><br><br>
+            <input id="task7Bt" type="button" value="Виконати">
+            <p id="output7"></p>
+        </article>
+        <article id="task8">
+            <p><b>Завдання №8.</b> Напишіть функцію formatDate(date), яка форматує дату date </p>
+            <input id="sec" type="button" value="Менше секунди">
+            <input id="min" type="button" value="Менше хвилини">
+            <input id="hour" type="button" value="Менше години">
+            <input id="more" type="button" value="Більше години">
+            <p id="output8"></p>
+        </article>
+        <article id="task9">
+            <p><b>Завдання №9.</b> Створити об'єкт Date з рядка. Підтримує строкове представлення дат із RFC2822 (на англійському, російською) або ISO 8601.</p>
+            <label for="datestr"></label><input id="datestr" type="text">
+            <input id="task9Bt" type="button" value="Виконати">
+            <p id="output9"></p>
+        </article>
+        <article id="task10">
+            <p><b>Завдання №10.</b> Реалізуйте виведення дати на вказаній мові</p>
+            <label for="local">2-х значний код</label><br><br><input id="local" type="text">
+            <input id="task10Bt" type="button" value="Виконати">
+            <p id="output10"></p>
+        </article>
+        <script src="lab3lib.js"></script>
+        <script src="lab3.js"></script>
+    </main>
+</body>
+</html>

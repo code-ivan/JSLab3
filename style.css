@@ -1,0 +1,17 @@
+*{
+    background: whitesmoke;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+article{
+    border: solid;
+    border-color: gray;
+    margin: 10px;
+    padding: 20px;
+
+}
+
