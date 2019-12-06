@@ -13,7 +13,7 @@ task4Bt.onclick = function () {
 };
 task5Bt.onclick = function () {
     let sec = getSec();
-    output5.innerHTML = "Bід початку сьогоднішнього дня:  " + sec.afterLast + "\nДо наступного дня:  " + sec.beforeNext;
+    output5.innerText = "\nBід початку сьогоднішнього дня:  " + sec.afterLast + "\nДо наступного дня:  " + sec.beforeNext;
 };
 task6Bt.onclick = function () {
     let date = document.getElementById('pickdate').valueAsDate;
