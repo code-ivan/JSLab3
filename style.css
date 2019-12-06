@@ -1,7 +1,7 @@
 *{
     background: whitesmoke;
     font-family: 'Arial', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
 }
 main{
     display: flex;
@@ -9,9 +9,9 @@ main{
 }
 article{
     border: solid;
-    border-color: gray;
+    border-color: silver;
     margin: 10px;
-    padding: 20px;
+    padding: 15px;
 
 }
 
